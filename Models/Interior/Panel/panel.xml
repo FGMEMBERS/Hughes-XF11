@@ -11,5 +11,122 @@
     <!-- Objets transparents -->
   </animation>
 
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.245 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- MAN LEFT ENGINE -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/man/manL.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m>  0.117 </y-m>
+      <z-m>  0.263 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- MAN RIGHT ENGINE -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/man/manR.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m>  0.203 </y-m>
+      <z-m>  0.263 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- TACH LEFT ENGINE -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/tach/tachL.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m>  0.117 </y-m>
+      <z-m>  0.183 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- TACH RIGHT ENGINE -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/tach/tachR.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m>  0.203 </y-m>
+      <z-m>  0.183 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m>  0.040 </y-m>
+      <z-m>  0.159 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  0.159 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.024 </x-m>
+      <y-m> -0.138 </y-m>
+      <z-m>  0.248 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m> -0.022 </x-m>
+      <y-m> -0.088 </y-m>
+      <z-m>  0.310 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
 </PropertyList>
 
