@@ -232,6 +232,7 @@
 
   <!-- CG Théorique : x=1.742 y=0 z=-0.379 -->
   <ballast x="6.60" y="0.0" z="-1.950" mass="3000"/>
+  <ballast x="-9.9" y="0.0" z="0.0" mass="-250"/>
 
 </airplane>
 
