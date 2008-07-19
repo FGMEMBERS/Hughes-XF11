@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- Tableau de bord -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -1.407 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.418 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -0.993 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.546 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
+

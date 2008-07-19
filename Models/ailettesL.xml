@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>ailettesL.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>ailette01</object-name>
+    <object-name>ailette02</object-name>
+    <object-name>ailette03</object-name>
+    <object-name>ailette04</object-name>
+    <object-name>ailette05</object-name>
+    <object-name>ailette06</object-name>
+    <object-name>ailette07</object-name>
+    <object-name>ailette11</object-name>
+    <object-name>ailette12</object-name>
+    <object-name>ailette13</object-name>
+    <object-name>ailette14</object-name>
+    <object-name>ailette15</object-name>
+    <object-name>ailette16</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>ailette01</object-name>
+    <object-name>ailette02</object-name>
+    <object-name>ailette03</object-name>
+    <object-name>ailette04</object-name>
+    <object-name>ailette05</object-name>
+    <object-name>ailette06</object-name>
+    <object-name>ailette07</object-name>
+    <object-name>ailette11</object-name>
+    <object-name>ailette12</object-name>
+    <object-name>ailette13</object-name>
+    <object-name>ailette14</object-name>
+    <object-name>ailette15</object-name>
+    <object-name>ailette16</object-name>
+
+    <property-base>sim/model/livery</property-base>
+    <texture-prop>texture</texture-prop>
+    <texture>texture.png</texture>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette01</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.142 </y1-m>
+      <z1-m>  0.712 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.141 </y2-m>
+      <z2-m>  0.712 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette02</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m>  0.141 </y1-m>
+      <z1-m>  0.712 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.403 </y2-m>
+      <z2-m>  0.603 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette03</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m>  0.403 </y1-m>
+      <z1-m>  0.603 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.603 </y2-m>
+      <z2-m>  0.403 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette04</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m>  0.603 </y1-m>
+      <z1-m>  0.403 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.711 </y2-m>
+      <z2-m>  0.142 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette05</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m>  0.711 </y1-m>
+      <z1-m>  0.142 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.711 </y2-m>
+      <z2-m> -0.141 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette06</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m>  0.711 </y1-m>
+      <z1-m> -0.141 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.603 </y2-m>
+      <z2-m> -0.403 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette07</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m>  0.603 </y1-m>
+      <z1-m> -0.403 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m>  0.403 </y2-m>
+      <z2-m> -0.603 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette11</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.403 </y1-m>
+      <z1-m> -0.603 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m> -0.603 </y2-m>
+      <z2-m> -0.403 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette12</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.603 </y1-m>
+      <z1-m> -0.403 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m> -0.712 </y2-m>
+      <z2-m> -0.141 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette13</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.712 </y1-m>
+      <z1-m> -0.141 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m> -0.712 </y2-m>
+      <z2-m>  0.142 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette14</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.712 </y1-m>
+      <z1-m>  0.142 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m> -0.603 </y2-m>
+      <z2-m>  0.403 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette15</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.603 </y1-m>
+      <z1-m>  0.403 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m> -0.403 </y2-m>
+      <z2-m>  0.603 </z2-m>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ailette16</object-name>
+    <property>/velocities/airspeed-kt</property>
+    <interpolation>
+      <entry>
+        <ind>   0.0 </ind>
+        <dep> -30.0 </dep>
+      </entry>
+      <entry>
+        <ind>  70.0 </ind>
+        <dep> -25.0 </dep>
+      </entry>
+      <entry>
+        <ind>  80.0 </ind>
+        <dep> -15.0 </dep>
+      </entry>
+      <entry>
+        <ind> 90.0 </ind>
+        <dep> -5.0 </dep>
+      </entry>
+      <entry>
+        <ind> 100.0 </ind>
+        <dep>  -3.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1000.0 </ind>
+        <dep>   -3.0 </dep>
+      </entry>
+    </interpolation>
+    <axis>
+      <x1-m> -0.252 </x1-m>
+      <y1-m> -0.403 </y1-m>
+      <z1-m>  0.603 </z1-m>
+      <x2-m> -0.252 </x2-m>
+      <y2-m> -0.142 </y2-m>
+      <z2-m>  0.712 </z2-m>
+    </axis>
+  </animation>
+
+</PropertyList>
+

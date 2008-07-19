@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>engine.ac</path>
+
+  <animation>
+    <object-name>wasp</object-name>
+
+    <!-- transparent objects -->
+  </animation>
+
+  <!-- Hélice 1 -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/propellerL.xml</path>
+    <offsets>
+      <x-m> -0.653 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Hélice 2 -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/propellerR.xml</path>
+    <offsets>
+      <x-m> -1.098 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.000 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+</PropertyList>

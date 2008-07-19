@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!-- <PropertyList include="xf11-jsbsim-set.xml"> -->
+<PropertyList include="xf11-yasim-set.xml">
+
+  <sim>
+    <description>Hughes XF 11</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+  </sim>
+
+</PropertyList>
+
