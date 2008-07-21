@@ -37,6 +37,16 @@
     <object-name>porteG2</object-name>
     <object-name>porteD1</object-name>
     <object-name>porteD2</object-name>
+    <object-name>axeG1</object-name>
+    <object-name>articuleG1</object-name>
+    <object-name>articuleG2</object-name>
+    <object-name>axeD1</object-name>
+    <object-name>articuleD1</object-name>
+    <object-name>articuleD2</object-name>
+    <object-name>axeA1</object-name>
+    <object-name>axeA2</object-name>
+    <object-name>articuleA1</object-name>
+    <object-name>articuleA2</object-name>
 
 
     <!-- Objets transparents -->
@@ -71,6 +81,16 @@
     <object-name>porteG2</object-name>
     <object-name>porteD1</object-name>
     <object-name>porteD2</object-name>
+    <object-name>axeG1</object-name>
+    <object-name>articuleG1</object-name>
+    <object-name>articuleG2</object-name>
+    <object-name>axeD1</object-name>
+    <object-name>articuleD1</object-name>
+    <object-name>articuleD2</object-name>
+    <object-name>axeA1</object-name>
+    <object-name>axeA2</object-name>
+    <object-name>articuleA1</object-name>
+    <object-name>articuleA2</object-name>
 
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
@@ -274,6 +294,10 @@
     <name>TrainAvant</name>
     <object-name>roueA</object-name>
     <object-name>axeA</object-name>
+    <object-name>axeA1</object-name>
+    <object-name>axeA2</object-name>
+    <object-name>articuleA1</object-name>
+    <object-name>articuleA2</object-name>
   </animation>
 
   <animation>
@@ -310,6 +334,9 @@
     <name>TrainGauche</name>
     <object-name>roueG</object-name>
     <object-name>axeG</object-name>
+    <object-name>axeG1</object-name>
+    <object-name>articuleG1</object-name>
+    <object-name>articuleG2</object-name>
   </animation>
 
   <animation>
@@ -346,6 +373,9 @@
     <name>TrainDroit</name>
     <object-name>roueD</object-name>
     <object-name>axeD</object-name>
+    <object-name>axeD1</object-name>
+    <object-name>articuleD1</object-name>
+    <object-name>articuleD2</object-name>
   </animation>
 
   <animation>
@@ -547,30 +577,28 @@
     </axis>
   </animation>
 
-  <!-- Rotation de la roue avant en fonction de la gouverne de direction -->
-  <animation>
-   <type>rotate</type>
-   <object-name>roueA</object-name>
-   <property>controls/flight/rudder</property>
-   <factor> 20.0 </factor>
-   <center>
-      <x-m> -7.724 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m> -3.154 </z-m>
-    </center>
-    <axis>
-      <x>  0.000 </x>
-      <y>  0.000 </y>
-      <z> -1.000 </z>
-    </axis>
-  </animation>
-
   <!-- Compression -->
   <animation>
-    <type>translate</type>
+    <name>RoueAvant</name>
     <object-name>roueA</object-name>
+    <object-name>axeA1</object-name>
+    <object-name>articuleA1</object-name>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>RoueAvant</object-name>
     <property>gear/gear[0]/compression-norm</property>
-    <factor>0.3</factor>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind> 1.00 </ind>
+        <dep> 0.30 </dep>
+      </entry>
+    </interpolation>
     <axis>
       <x> 0.284433 </x>
       <y> 0.000000 </y>
@@ -579,8 +607,67 @@
   </animation>
 
   <animation>
-    <type>translate</type>
+   <type>rotate</type>
+   <object-name>articuleA1</object-name>
+   <property>gear/gear[0]/compression-norm</property>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind>  1.0 </ind>
+        <dep> 37.0 </dep>
+      </entry>
+    </interpolation>
+    <center>
+      <x-m> -7.489 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -2.760 </z-m>
+    </center>
+    <axis>
+      <x> 0.000 </x>
+      <y> 1.000 </y>
+      <z> 0.000 </z>
+    </axis>
+  </animation>
+
+  <animation>
+   <type>rotate</type>
+   <object-name>articuleA2</object-name>
+   <property>gear/gear[0]/compression-norm</property>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind>  1.0 </ind>
+        <dep> 95.0 </dep>
+      </entry>
+    </interpolation>
+    <center>
+      <x-m> -7.403 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -2.436 </z-m>
+    </center>
+    <axis>
+      <x>  0.000 </x>
+      <y> -1.000 </y>
+      <z>  0.000 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>TrainGauche</name>
     <object-name>roueG</object-name>
+    <object-name>axeG1</object-name>
+    <object-name>articuleG1</object-name>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>TrainGauche</object-name>
     <property>gear/gear[1]/compression-norm</property>
     <interpolation>
       <entry>
@@ -588,8 +675,8 @@
         <dep> 0.0 </dep>
       </entry>
       <entry>
-        <ind> 1.000 </ind>
-        <dep> 0.300 </dep>
+        <ind> 1.00 </ind>
+        <dep> 0.30 </dep>
       </entry>
     </interpolation>
     <axis>
@@ -600,8 +687,67 @@
   </animation>
 
   <animation>
-    <type>translate</type>
+   <type>rotate</type>
+   <object-name>articuleG1</object-name>
+   <property>gear/gear[1]/compression-norm</property>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind>  1.0 </ind>
+        <dep> 32.0 </dep>
+      </entry>
+    </interpolation>
+    <center>
+      <x-m> -1.359 </x-m>
+      <y-m> -4.152 </y-m>
+      <z-m> -2.876 </z-m>
+    </center>
+    <axis>
+      <x>  0.000 </x>
+      <y> -1.000 </y>
+      <z>  0.000 </z>
+    </axis>
+  </animation>
+
+  <animation>
+   <type>rotate</type>
+   <object-name>articuleG2</object-name>
+   <property>gear/gear[1]/compression-norm</property>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind>  1.0 </ind>
+        <dep> 32.0 </dep>
+      </entry>
+    </interpolation>
+    <center>
+      <x-m> -1.369 </x-m>
+      <y-m> -4.152 </y-m>
+      <z-m> -2.460 </z-m>
+    </center>
+    <axis>
+      <x> 0.000 </x>
+      <y> 1.000 </y>
+      <z> 0.000 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>TrainDroit</name>
     <object-name>roueD</object-name>
+    <object-name>axeD1</object-name>
+    <object-name>articuleD1</object-name>
+  </animation>
+
+  <animation>
+    <type>translate</type>
+    <object-name>TrainDroit</object-name>
     <property>gear/gear[2]/compression-norm</property>
     <interpolation>
       <entry>
@@ -609,14 +755,93 @@
         <dep> 0.0 </dep>
       </entry>
       <entry>
-        <ind> 1.000 </ind>
-        <dep> 0.300 </dep>
+        <ind> 1.00 </ind>
+        <dep> 0.30 </dep>
       </entry>
     </interpolation>
     <axis>
       <x> 0.000 </x>
       <y> 0.000 </y>
       <z> 1.000 </z>
+    </axis>
+  </animation>
+
+  <animation>
+   <type>rotate</type>
+   <object-name>articuleD1</object-name>
+   <property>gear/gear[2]/compression-norm</property>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind>  1.0 </ind>
+        <dep> 32.0 </dep>
+      </entry>
+    </interpolation>
+    <center>
+      <x-m> -1.359 </x-m>
+      <y-m>  4.152 </y-m>
+      <z-m> -2.876 </z-m>
+    </center>
+    <axis>
+      <x>  0.000 </x>
+      <y> -1.000 </y>
+      <z>  0.000 </z>
+    </axis>
+  </animation>
+
+  <animation>
+   <type>rotate</type>
+   <object-name>articuleD2</object-name>
+   <property>gear/gear[2]/compression-norm</property>
+    <interpolation>
+      <entry>
+        <ind> 0.0 </ind>
+        <dep> 0.0 </dep>
+      </entry>
+      <entry>
+        <ind>  1.0 </ind>
+        <dep> 32.0 </dep>
+      </entry>
+    </interpolation>
+    <center>
+      <x-m> -1.369 </x-m>
+      <y-m>  4.152 </y-m>
+      <z-m> -2.460 </z-m>
+    </center>
+    <axis>
+      <x> 0.000 </x>
+      <y> 1.000 </y>
+      <z> 0.000 </z>
+    </axis>
+  </animation>
+
+  <!-- Rotation de la roue avant en fonction de la gouverne de direction -->
+  <animation>
+    <name>TourneAvant</name>
+    <object-name>roueA</object-name>
+    <object-name>axeA1</object-name>
+    <object-name>axeA2</object-name>
+    <object-name>articuleA1</object-name>
+    <object-name>articuleA2</object-name>
+  </animation>
+
+  <animation>
+   <type>rotate</type>
+   <object-name>TourneAvant</object-name>
+   <property>controls/flight/rudder</property>
+   <factor> -20.0 </factor>
+   <center>
+      <x-m> -7.724 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -3.154 </z-m>
+    </center>
+    <axis>
+      <x> 0.284433 </x>
+      <y> 0.000000 </y>
+      <z> 0.823918 </z>
     </axis>
   </animation>
 
