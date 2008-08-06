@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
-<!-- <PropertyList include="xf11-jsbsim-set.xml"> -->
-<PropertyList include="xf11-yasim-set.xml">
+<!-- <PropertyList include="xf11-jsbsim-cnf.xml"> -->
+<PropertyList include="xf11-yasim-cnf.xml">
 
   <sim>
     <description>Hughes XF 11</description>
