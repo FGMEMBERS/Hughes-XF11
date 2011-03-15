@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
 
@@ -7,17 +7,31 @@
   <animation>
     <!-- Objets opaques -->
     <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
 
     <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
   </animation>
 
   <!-- Tableau de bord -->
   <model>
     <path>Aircraft/Hughes-XF11/Models/Interior/Panel/panel.xml</path>
     <offsets>
-      <x-m> -1.407 </x-m>
+      <x-m> -4.569 </x-m>
       <y-m>  0.000 </y-m>
-      <z-m>  0.418 </z-m>
+      <z-m> -0.215 </z-m>
     </offsets>
   </model>
 
@@ -25,9 +39,9 @@
   <model>
     <path>Aircraft/Hughes-XF11/Models/Pilot/pilot.xml</path>
     <offsets>
-      <x-m> -0.993 </x-m>
+      <x-m> -4.155 </x-m>
       <y-m>  0.000 </y-m>
-      <z-m>  0.546 </z-m>
+      <z-m> -0.087 </z-m>
     </offsets>
   </model>
 

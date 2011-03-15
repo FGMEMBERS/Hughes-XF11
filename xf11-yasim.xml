@@ -1,11 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- Hughes XF11 - 2008 BARANGER Emmanuel
 
-     Envergure    : 30.89 m                                           ( 101 ft 4 in)
-     Longueur     : 19.94 m                                           (  65 ft 5 in)
-     Hauteur      :  7.09 m                                           (  23 ft 2 in)
-     Masse à vide : 16800 kg                                          ( 37100 lbs)
-     Moteur       : 2x Pratt & Whitney R-4360-31 28 Cyl. (3000 ch)    ( 3000 hp )
-     Vitesse max  : 724 km/h                                          ( 391 kts )
+     Envergure    : 30.89 m                                       ( 101 ft 4 in)
+     Longueur     : 19.94 m                                       (  65 ft 5 in)
+     Hauteur      :  7.09 m                                       (  23 ft 2 in)
+     Masse a vide : 16800 kg                                      ( 37100 lbs)
+     Moteur       : 2 Pratt & Whitney R-4360-31 28 Cyl. (3000 ch) ( 3000 hp )
+     Vitesse max  : 724 km/h                                      ( 391 kts )
 -->
 
 <airplane mass="37100">
@@ -35,19 +37,13 @@
   <cockpit x="3.995" y="0.000" z="0.341"/>
 
   <!-- Fuselage -->
-  <fuselage ax="9.968"  ay="0" az="-0.658" 
-            bx="-0.369" by="0" bz="-0.404"
-            width="1.645" taper="1.0" midpoint="1.0"/>
+  <fuselage ax="9.968"  ay="0" az="-0.658" bx="-0.369" by="0" bz="-0.404" width="1.645" taper="0.2" midpoint="0.5"/>
 
   <!-- moteur gauche -->
-  <fuselage ax="6.574"  ay="4.152" az="-0.744" 
-            bx="-9.973" by="4.152" bz="-0.358"
-            width="1.606" taper="0.347" midpoint="0.4"/>
+  <fuselage ax="6.574"  ay="4.152" az="-0.744" bx="-9.973" by="4.152" bz="-0.358" width="1.606" taper="0.347" midpoint="0.01"/>
 
   <!-- moteur droit -->
-  <fuselage ax="6.574"  ay="-4.152" az="-0.744" 
-            bx="-9.973" by="-4.152" bz="-0.358"
-            width="1.606" taper="0.347" midpoint="0.4"/>
+  <fuselage ax="6.574"  ay="-4.152" az="-0.744" bx="-9.973" by="-4.152" bz="-0.358" width="1.606" taper="0.347" midpoint="0.01"/>
 
   <!-- Aile -->
   <wing x="1.742" y="0" z="-0.379"
@@ -90,7 +86,7 @@
          chord="3.231"
          length="3.498"
          taper="0.42"
-         sweep="2">
+         sweep="4">
          <stall aoa="14" width="4" peak="1.5"/>
          <flap0 start="0" end="1" lift="1.3" drag="1.1"/>
 
@@ -104,7 +100,7 @@
          chord="3.231"
          length="3.498"
          taper="0.42"
-         sweep="2">
+         sweep="4">
          <stall aoa="14" width="4" peak="1.5"/>
          <flap0 start="0" end="1" lift="1.3" drag="1.1"/>
 
@@ -229,8 +225,7 @@
   <tank x="1.952" y="3.65" z="0.4" capacity="1200"/>
   <tank x="1.952" y="-2.65" z="0.4" capacity="1200"/>
 
-  <!-- CG Théorique : x=1.742 y=0 z=-0.379 -->
+  <!-- Mass displacment -->
   <ballast x="6.60" y="0.0" z="-1.950" mass="3000"/>
-<!--  <ballast x="-9.9" y="0.0" z="0.0" mass="-250"/> -->
 
 </airplane>
