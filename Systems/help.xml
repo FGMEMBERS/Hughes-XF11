@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <title>Hughes XF 11</title>
+  <line>______________________________________________</line>
+  <key>
+    <name>d</name>
+    <desc>Open/Close canopy</desc>
+  </key>
+  <key>
+    <name>f</name>
+    <desc>shift Blower down</desc>
+  </key>
+  <key>
+    <name>F</name>
+    <desc>shift Blower up</desc>
+  </key>
+  
+</PropertyList>

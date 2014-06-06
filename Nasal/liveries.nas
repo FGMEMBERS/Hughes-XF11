@@ -1,3 +1,2 @@
-aircraft.livery.init("Aircraft/H1-Racer/Models/Liveries");
-
+aircraft.livery.init("Aircraft/Hughes-XF11/Models/Liveries");
 
