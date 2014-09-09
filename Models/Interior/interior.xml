@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>planchet</object-name>
+    <object-name>inttour</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Hughes-XF11/Models/Effects/Glass/glass</inherits-from>
+    <object-name>intvitres</object-name>
+  </effect>
+  
+  <!-- Tableau de bord -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -4.569 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.215 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Hughes-XF11/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -4.155 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.087 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
